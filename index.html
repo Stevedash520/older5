@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>万年青</title>
+    <link href="css/FirstPageS(1).css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">
+  <div id="first">
+      <div id="firstp">
+          <a href="FirstPage(1).html">
+              <img src="photo/logo1.png" width="30px">
+          </a>
+      </div>
+      <div id="firstl"> <p>万年青</p> </div>
+  </div>
+
+  <div class="nav" id="second">
+      <ul>
+          <li  class="active"><a href="FirstPage(1).html">首页</a></li>
+          <li><a href="getpro.html">找工作</a></li>
+          <li><a href="get%20item.html">接项目</a></li>
+          <li><a href="myclass.html">授课</a></li>
+          <li><a href="mind.html">我的</a></li>
+      </ul>
+  </div>
+
+    <div id="third">
+        <div id="thirdf"><a href="FirstPage(1).html"><img src="photo/first.png"></a></div>
+        <p id="thirds">通过二次就业，创造自我价值</p>
+    </div>
+
+    <div id="fourth">
+        <div id="fo">
+            <span><p>新闻资讯</p></span>
+            <span><a href="FirstPage(1).html">更多</a></span>
+        </div>
+
+        <div id="fourthon">
+            <div id="ftw">
+                <img src="photo/ftw.png" width="380px">
+                <a href="FirstPage(1).html">省委办公厅老干部活动室又有活动了...</a>
+            </div>
+            <div id="fth">
+                <img src="photo/fth.png" width="380px">
+                <a href="FirstPage(1).html">快来南村村老人康体中心一起做运动体验新设施吧...</a>
+            </div>
+        </div>
+
+
+        <div id="ffo">
+            <div id="ffo2"><img src="photo/ffo.png" width="450px"></div>
+            <div id="ffo1"><a href="FirstPage(1).html">快来！好好活呗学堂又开新课程啦！</a>
+            <div id="ffo3">2021-05-11</div></div>
+        </div>
+
+        <div id="ffi">
+            <div id="ffi2"><img src="photo/ffi.png" width="450px"></div>
+            <div id="ffi1"><a href="FirstPage(1).html">有优惠！云峰养生馆限时五折票大放送！</a>
+            <div id="ffi3">2021-05-11</div>
+            </div>
+        </div>
+
+        <div id="fsi">
+            <div id="fsi2"><img src="photo/fsi.png" width="450px"></div>
+            <div id="fsi1"><a href="FirstPage(1).html">艾草泡澡有这些好处，快来体验一下吧！</a>
+                <div id="fsi3">2021-05-11</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let lis = document.querySelectorAll('.nav>ul>li')
+    console.log(lis)
+    for (var i = 0; i < lis.length; i++) {
+        lis[i].onclick = function(event) {
+            let li = document.getElementsByClassName('active')[0]
+            li.classList.remove('active')
+            event.target.classList.add('active')
+        }
+    }
+</script>
+
+</body>
+</html>

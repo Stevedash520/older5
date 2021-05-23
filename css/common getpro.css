@@ -1,0 +1,340 @@
+.w{
+    width: 1204px;
+    margin: 0 auto;
+   
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+body{
+    background-color:white;
+    color:#333;
+}
+header{
+    background-color: #fff;
+     height: 61px;
+    line-height: 61px; 
+    margin-bottom: 20px;
+}
+.header h1 a{
+    display: inline-block;
+    width: 245px;
+    height: 38px;
+    background:url(../img/getpro/toplogo.jpg) no-repeat;
+    font-size: 0;
+   
+}
+
+.header .fl li{
+    float: left;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.header .fr li{
+    float: left;
+    padding: 0 10px;
+    font-size: 10px;
+}
+
+.nav .shang{
+    height: 386px;
+    margin-bottom: 20px;
+}
+.nav .shang .bg{
+    position: relative;
+    width: 926px;
+    height: 386px;
+    background: url(../img/getpro/lunbo.jpg);
+}
+.nav .shang .bg .box{
+    position: absolute;
+    bottom: 20px;
+    left: 50%; 
+    margin-left: -15px;
+
+}
+.nav .shang .bg .box i{
+    display: inline-block;
+    width: 10px;
+    height: 0;
+    border-top:10px solid transparent;
+    border-bottom:10px solid white;
+}
+.nav .shang .bg .box i:hover{
+    border-top:10px solid green;
+    border-bottom:10px solid green;
+
+}
+.nav .shang .news{
+    
+    border-top:3px solid green;
+    width: 250px;
+    background: white;
+    margin-left: 23px;
+    padding: 20px 0 0 0;
+}
+.nav .shang .news ul{
+    margin-left: 25px;
+}
+.nav .shang .news ul li{
+    
+    list-style:disc;
+    font-size: 14px;
+    line-height: 40px;
+}
+.nav .shang .news ul li:nth-child(2),
+.nav .shang .news ul li:nth-child(4){
+    color:red;
+}
+.nav .shang .news ul h1{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.nav .shang .news ul h1::before{
+    content:'';
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background:url(../img/getpro/icon.png)  no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.nav .xia{
+    margin-bottom: 47px;
+}
+.nav .xia ul li{
+    height: 170px;
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+}
+.nav .xia ul li p{
+    margin: 10px 15px;
+}
+.nav .xia ul li p:first-of-type{
+    font-size: 14px;
+    color: black;
+}
+
+.xia .text1 span:first-child{
+    font-size: 14px;
+    color: red;
+}
+.xia .text1 span:nth-child(2){
+    font-weight: 700;
+    font-size: 10px;
+    color:#999;
+    text-decoration: line-through;
+}
+.xia .text1 span:nth-child(3){
+    float:right;
+    font-size: 10px;
+}
+.nav .xia ul li:last-child{
+    margin-right: 0;
+    
+}
+article h1{
+    font-weight: 400;
+    font-size: 22px;
+    height: 36px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+article .nav_kc{
+    position: relative;
+    height: 70px;
+    padding: 20px 0;
+    
+}
+article .nav_kc li{ 
+    height: 30px;
+    line-height: 30px;
+    float: left; 
+    margin-right: 30px;
+}
+article .nav_kc li a{
+    color:#333;
+}
+article .nav_kc li:first-child{
+    text-align: center;
+    width: 47px;
+    border: 1px solid green;
+}
+article .nav_kc li:first-child a{
+    color: green;
+}
+article .kc li{
+    position: relative;
+    width: 286px;
+    height: 260px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+article .kc li div{
+    position: absolute;
+    top: -2px;
+    right: 20px;
+    width: 40px;
+    height: 26px;
+    background-color: green;
+    color: white;
+    line-height: 26px;
+    text-align: center;
+}
+article .kc li:nth-child(4n){
+    margin-right: 0;
+}
+article .kc li img{
+    width: 100%;
+}
+article .kc li p{
+   
+    height: 24px;
+
+}
+article .kc li p:first-of-type{
+    font-size: 14px;
+    color:black;
+    margin: 14px 0 0 12px;
+}
+article .kc li p:nth-of-type(2){
+    font-size: 12px;
+    color:#999;
+    margin: 0 0 0 12px;
+}
+article .kc li .text2{
+    margin: 0 12px 0 12px;
+}
+article .kc li .text2 span:first-child{
+    font-size: 14px;
+    color:red;
+}
+article .kc li .text2 span:nth-child(2){
+    font-size: 10px;
+    color:#999;
+    text-decoration: line-through;
+}
+article .kc li .text2 span:nth-child(3){
+    font-size: 10px;
+    color:#999;
+    float:right;
+}
+.recom1{
+    margin-top: 20px;
+    height: 60px;
+}
+.recom1 h1{
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #333;
+}
+.recom1 .fr i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+
+}
+.recom1 .fr i:first-child{
+    background-color: green;
+    color: white;
+}
+.recom2 ul li{
+    float: left;
+    width: 388px;
+    height: 164px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 25px 48px 0 20px;
+}
+.recom2 ul li div img{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.recom2 ul li div p{
+    width: 80px;
+    text-align: center;
+}
+.recom2 ul li:last-child{
+    margin-right: 0;
+}
+
+.recom2 .text3 span:first-child{
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    color: green;
+}
+.recom2 .text3 span:last-child{
+    display: block;
+    font-size: 13px;
+    height: 20px;
+}
+footer{
+    background-color: white;
+    height: 241px;
+    
+
+}
+footer .link{
+    padding: 30px 80px 0 0;
+    height: 153px;
+    border-bottom: 1px solid #eee;
+    font-size: 10px;
+
+}
+footer .link h1{
+    font-style: 20px;
+    height: 40px;
+}
+footer .link .box1{
+    width: 422px;
+    margin-right: 50px;
+}
+footer .link .box1 p{
+    line-height: 20px;
+}
+footer .link .box2{
+    margin-right: 100px;
+}
+footer .link .box3{
+    width: 444px;
+}
+footer .link .box3 a{
+    display: inline-block;
+    margin-right: 30px;
+    height: 30px;
+}
+
+footer .service{
+    text-align: center;
+}
+footer .service ul{
+    
+    margin:auto;
+    width: 300px;
+    height:50px;
+    
+}
+footer .service ul li{
+    margin-top: 15px;
+    float: left;
+    width: 72px;
+    font-size: 12px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    border-right: 1px solid #333;
+}

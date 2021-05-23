@@ -1,0 +1,114 @@
+body{
+    margin:0 auto;
+    border: 1px black solid;
+    text-decoration: none;
+    width: 831px;
+
+}
+#first {
+    height: 30px;
+    background-color:#000000;
+    padding: 3px;
+}
+#first img{
+    margin-left: 20px;
+    float: left;
+}
+#first firstp{
+    float: left;
+    width: 30px;
+    background-color: #fff;
+}
+#first p{
+    color: #3bb069;
+    float: left;
+    font: bold;
+    font-size: larger;
+    letter-spacing: 2px;
+    line-height: 0px;
+    margin-left: 5px;
+}
+#firstl{
+    float: left;
+}
+
+
+#second{
+    background-color: black;
+    margin-top: -19px;
+    font-size: 19px;
+}
+#second ul{
+    padding: 0px;
+}
+#second li:first-child{
+    margin-left: 0px;
+
+}
+#second li{
+    padding-top: 25px;
+    list-style-type: none;
+    display: inline;
+    padding-right:38px;
+    padding-left:38px;
+    color: white;
+}
+
+li:hover{
+    cursor: pointer;
+    border-bottom:5px solid #3bb069;
+}
+.active{
+    border-bottom:3px solid #3bb069;
+}
+
+#second a{
+    color: white;
+    text-decoration: none;
+}
+#third{
+    margin-top: -17px;
+    text-align: center;
+    font-family: 新宋体;
+    font-size: 24;
+}
+#third p{
+    text-align: center;
+    font-family: 新宋体;
+    font-size: 44;
+}
+#thirds{
+    font-size: 30px;
+}
+#fo{
+    background-color: #3bb069;
+    height: 40px;
+}
+#fourth p{
+    float: left;
+    color: white;
+    line-height: 5px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+#fourth a{
+    float: right;
+    color: white;
+    line-height: 39px;
+    margin-right: 20px;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+.job{
+    margin-left: 80px;
+    margin-bottom: 70px;
+    padding: 12px;
+    border-top: dashed 2px #3bb069;
+    border-bottom: dashed 2px #3bb069;
+    border-left:  dashed 2px #3bb069;
+}
+#ph{
+    margin-top: 20px;
+}

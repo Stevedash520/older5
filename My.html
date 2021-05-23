@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/my.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="container">
+    <div id="first">
+        <div id="firstp"> <img src="photo/logo1.png" width="30px"></div>
+        <div id="firstl"> <p>万年青</p> </div>
+    </div>
+
+    <div class="nav" id="second">
+        <ul>
+            <li  class="active"><a href="FirstPage(1).html">首页</a></li>
+            <li><a href="JobFinding.html">找工作</a></li>
+            <li>接项目</li>
+            <li>授课</li>
+            <li><a href="My.html">我的</a></li>
+        </ul>
+    </div>
+
+    <div id="second2">
+        <ul>
+            <li>我的钱包</li>
+            <li><a href="简历.html">我的简历</a></li>
+            <li>我的收藏</li>
+            <li>设置</li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    let lis = document.querySelectorAll('.nav>ul>li')
+    console.log(lis)
+    for (var i = 0; i < lis.length; i++) {
+        lis[i].onclick = function(event) {
+            let li = document.getElementsByClassName('active')[0]
+            li.classList.remove('active')
+            event.target.classList.add('active')
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+.w{
+    width: 1144px;
+    margin: 0 auto;
+}
+.w1{
+    width: 1294px;
+    margin: 0 auto;
+
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+nav{
+    height: 80px;
+    line-height: 80px;
+    font-size: 18px;
+}
+nav h1 a{
+    display: inline-block;
+    width: 90px;
+    height: 55px;
+    background:url(../photo/images/toplogo.jpg) no-repeat;
+    font-size: 0;
+    margin-right: 50px;
+    vertical-align: wnqddle;
+}
+nav li{
+    float: left;
+}
+nav .fl li{
+    margin-right: 40px;
+}
+nav .fr li{
+    margin-right: 20px;
+}
+nav .fr li a{
+    color:#13c488;
+}
+nav .fr li:last-child{
+    font-size: 12px;
+}
+nav .fr li:last-child::before{
+    content:"";
+    display: inline-block;
+    width: 11px;
+    height: 19px;
+    background:url(../photo/images/1243.png);
+}
+header{
+    height: 420px;
+    background: url(../photo/images/112.jpg) no-repeat center;
+}
+.header{
+    position: relative;
+   
+}
+.introduce{
+    position: absolute;
+    top: 106px;
+    right:0;
+    width: 258px;
+    height: 148px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 7px;
+    padding:20px;
+    color:white;
+    font-size: 16px;
+    
+
+}
+.introduce .now i{
+    display: inline-block;
+    width: 7px;
+    height: 20px;
+    background-color: #fc7c52;
+    border-radius:7px;
+    margin-right: 12px;
+    margin-bottom: 22px;
+    vertical-align: top;
+}
+.introduce .number span:first-child{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    float: left;
+}
+.introduce .number span:last-child{
+    display: inline-block;
+    font-size: 14px;
+   width: 60px;
+   height: 40px;
+   margin-top: 10px;
+   margin-left: 5px;
+}
+ .study{
+    position: absolute;
+    right: 0;
+    top:265px;
+    width: 258px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fc7c52;
+    color:white;
+    font-size: 16px;
+
+}
+.hot{
+    position: relative;
+    margin-top: 73px;
+    padding-top: 48px;
+    border-top: 1px solid #efefef;
+}
+.hot::before{
+    position: absolute;
+    top:-25px;
+    left:50%;
+    margin-left: -70px;
+    content:"热门课程";
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+
+}
+.hot ul li{
+    position: relative;
+    width: 560px;
+    height: 318px;
+}
+.hot ul li img{
+    width: 100%;
+    height:100%;
+}
+.hot ul li div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    width: 302px;
+    height: 153px;
+    color:white;
+
+}
+.hot ul li div p:first-child{
+    height: 110px;
+    border:2px solid white;
+    font-size: 20px;
+    line-height: 110px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hot ul li div p:last-child{
+    font-size: 14px;
+    text-align: center;
+}
+.hot ul li:first-child{
+    margin-right: 20px;
+}
+.recom{
+    position: relative;
+    margin-top: 93px;
+    padding-top: 47px;
+    border-top: 1px solid #efefef;
+
+}
+.recom::before{
+    position: absolute;
+    top:-25px;
+    left:50%;
+    margin-left: -70px;
+    content:"班级推荐";
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+
+}
+.recom ul li{
+    position: relative;
+    float: left;
+    width: 267px;
+    height: 289px;
+    margin-right: 20px;
+    border:1px solid #f0f0f0;
+}
+.recom ul li::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 35px 25px 35px;
+    border-color:#12c886 transparent transparent #12c886;
+}
+.recom ul li::after{
+    position: absolute;
+    top:10px;
+    left: 7px;
+    content:"班级";
+    color: white;
+}
+
+.recom ul li img{
+    width: 100%;
+    height:150px;
+}
+.recom ul li h2{
+    margin-top: 11px;
+    margin-left: 16px;
+    font-size: 14px;
+}
+.recom ul li p{
+    height:32px;
+    line-height: 16px;
+    font-size: 10px;
+    margin: 10px 15px 10px 16px;
+    overflow:hidden; 
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+
+
+}
+.recom ul li button{
+    width: 236px;
+    height: 37px;
+    border-radius: 10px;
+    background-color: #15c388;
+    font-size: 14px;
+    color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.recom ul li:last-child{
+    margin-right: 0;
+}
+.renz{
+    position: relative;
+    margin-top: 92px;
+    padding-top: 47px;
+    border-top: 1px solid #efefef;
+    margin-bottom: 20px;
+
+
+
+}
+.renz::before{
+    position: absolute;
+    top:-25px;
+    left:50%;
+    margin-left: -70px;
+    content:"认证部分";
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+}
+.renz ul li{
+    float: left;
+    width: 358px;
+    height: 144px;
+    border: 1px solid #f0f0f0;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.renz ul li div{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: url(../photo/images/7.png) no-repeat -5px -15px;
+}
+.renz ul li p{
+    float: left;
+    width: 129px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.renz ul li p span:first-of-type{
+    display: inline-block;
+    color:green;
+    margin-bottom: 12px;
+    
+}
+.renz ul li p button{
+    width: 121px;
+    height: 36px;
+    border-radius: 18px;
+    background-color:#fe9537;
+    margin-bottom: 20px;
+    color:white;
+
+}
+.renz ul li p span:last-of-type{
+    width: 137px;
+    /*1. 先强制一行内显示文本*/
+    white-space:nowrap;  
+     /*2. 超出的部分隐藏*/
+    overflow:hidden;
+     /*3. 文字用省略号替代超出的部分*/
+    text-overflow:ellipsis;  
+}
+.renz ul li:last-child{
+    margin-right: 0;
+}
+.more{
+    text-align: right;
+    margin-bottom: 50px;
+}
+.more button{
+    width: 88px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+    color:#999;
+    border: 1px solid #999;
+}
+footer{
+    height: 202px;
+    background-color:darkgrey;
+}
+.joinus{
+    height: 127px;
+    border-bottom: 1px solid #5f5f5f;
+}
+.joinus div{
+    display: inline-block;
+   margin-top: 40px;
+    margin-left: 250px;
+}
+.gray{
+   margin-left: 140px;
+   vertical-align: bottom;
+}
+.joinus div ul{
+    height: 14px;
+    margin-bottom: 11px;
+}
+.joinus div ul li{
+    float: left;
+    font: normal normal 14px/1 wnqcrosoft Ya;
+    padding: 0 10px;
+    border-right: 1px solid white;
+}
+.joinus div ul li a{
+    color: white;
+   
+}
+.joinus div p{
+    margin-left: 30px;
+    
+}
+.link p{
+    line-height: 30px;
+    margin-left: 140px;
+}
+.link p a{
+    padding:0 20px;
+    
+}
